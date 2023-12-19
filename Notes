@@ -1,0 +1,6 @@
+@TeleOp()
+/* comment */
+/* comments are things that inform the coder of past codes they may forget*/
+ @Autonomous()
+init() /* runs once when driver presses INIT */
+@Override /* replaces functionality in parent class */
