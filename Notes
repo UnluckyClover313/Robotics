@@ -3,6 +3,10 @@
 /* comments are things that inform the coder of past codes they may forget*/
  @Autonomous()
 init() /* runs once when driver presses INIT */
+loop() /* thisis run repeatedly after driver presses PLAY but before STOP */
+init_loop() /* this is run repeatedly after driver presses INT but before PLAY */
+start() /* this is run once when the driver presses PLAY */
+stop() /* this is run once when the driver presses STOP */
 @Override /* replaces functionality in parent class */
 boolean /* can be true or false (contains one or the other) */
 /* how to name servo */ 
