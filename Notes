@@ -4,3 +4,6 @@
  @Autonomous()
 init() /* runs once when driver presses INIT */
 @Override /* replaces functionality in parent class */
+boolean /* can be true or false (contains one or the other) */
+/* how to name servo */ 
+
